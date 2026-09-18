@@ -11,3 +11,13 @@
 .resultWindow text{letter-spacing:.2px;text-shadow:none}
 @keyframes targetTick{50%{opacity:.35}}
 @keyframes windowIn{0%{opacity:0}50%{opacity:.45}100%{opacity:1}}
+
+/* v4 readable unified result window */
+.resultWindowText text{
+  font-family:'Press Start 2P',ui-monospace,monospace;
+  font-size:6px;
+  font-weight:400;
+  letter-spacing:0;
+  text-shadow:none;
+}
+.resultWindow{pointer-events:none}
